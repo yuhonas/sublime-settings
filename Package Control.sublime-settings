@@ -1,17 +1,19 @@
 {
-	"auto_upgrade_last_run": 1353356902,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Alignment",
 		"CoffeeScript",
 		"Cucumber",
 		"DetectSyntax",
+		"Gist",
 		"Git",
 		"LESS",
 		"Package Control",
 		"Rails Partial",
 		"RSpec",
 		"Ruby Slim",
-		"SublimeLinter"
+		"SublimeLinter",
+		"Theme - Soda"
 	]
 }

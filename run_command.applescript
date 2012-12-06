@@ -27,6 +27,7 @@ on run argv
       tell the current session
         -- talk to the new terminal
         write text _command
+        return its text
       end tell
     end tell
   end tell

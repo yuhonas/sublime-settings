@@ -129,8 +129,16 @@ class RunTests(sublime_plugin.TextCommand):
     return path
 
   def run_spec(self, root_path, path):
+    os.chdir(root_path)
+
+    if os.system('bundle list rspec') == 0:
+      rspec_cmd = 'bundle exec rspec'
+    else:
+      rspec_cmd = 'rspec'
+
     self.run_in_terminal('cd ' + root_path)
-    self.run_in_terminal('bundle exec rspec ' + path)
+
+    self.run_in_terminal(rspec_cmd + ' ' + path)
 
   def run_in_terminal(self, command):
     osascript_command = 'osascript '
