@@ -1,3 +1,6 @@
 .DS_Store
 *.pyc
-Rspec.last-run
+/Rspec.last-run
+/today.TODO
+/Package Control.last-run
+/Gist.sublime-settings
