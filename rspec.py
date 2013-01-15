@@ -131,10 +131,10 @@ class RunTests(sublime_plugin.TextCommand):
   def run_spec(self, root_path, path):
     os.chdir(root_path)
 
-    if os.system('bundle list rspec') == 0:
-      rspec_cmd = 'bundle exec rspec'
-    else:
-      rspec_cmd = 'rspec'
+    #if os.system('bundle list rspec') == 0:
+    rspec_cmd = 'bundle exec rspec'
+    #else:
+    # rspec_cmd = 'ruby'
 
     self.run_in_terminal('cd ' + root_path)
 
