@@ -23,7 +23,13 @@
       { "key": "setting.tab_completion", "operator": "equal", "operand": true }
     ]
   },
+  // handy shortcut to open a daily TODO
   { "keys": ["super+\\"], "command": "open_file", "args": {"file": "${packages}/User/today.TODO"} },
+  // default to using indent paste for normal paste operations
   { "keys": ["super+shift+v"], "command": "paste" },
-  { "keys": ["super+v"], "command": "paste_and_indent" }
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  // swap keybindings for column select to use alt instead of ctrl
+  // ctrl seems to trigger expose in Mountain Lion
+  { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} }
 ]
