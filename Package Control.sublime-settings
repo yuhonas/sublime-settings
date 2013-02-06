@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"BracketHighlighter",
 		"CoffeeScript",
 		"Cucumber",
 		"DetectSyntax",
@@ -15,6 +16,7 @@
 		"Rails Partial",
 		"RSpec",
 		"Ruby Slim",
+		"Sass",
 		"SublimeLinter",
 		"Theme - Soda"
 	]

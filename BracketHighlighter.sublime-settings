@@ -1,0 +1,18 @@
+{
+  // Scope? (Defined in theme files.)
+  // Examples: (keyword|string|number)
+  "quote_scope" : "support.other.variable",
+  "curly_scope" : "support.other.variable",
+  "round_scope" : "support.other.variable",
+  "square_scope": "support.other.variable",
+  "angle_scope" : "support.other.variable",
+  "tag_scope"   : "support.other.variable",
+
+  // Outline? (solid|outline|underline|none)
+  "quote_style" : "outline",
+  "curly_style" : "outline",
+  "round_style" : "outline",
+  "square_style": "outline",
+  "angle_style" : "outline",
+  "tag_style"   : "outline"
+}

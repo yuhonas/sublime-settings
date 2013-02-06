@@ -23,5 +23,7 @@
       { "key": "setting.tab_completion", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["super+\\"], "command": "open_file", "args": {"file": "${packages}/User/today.TODO"} }
+  { "keys": ["super+\\"], "command": "open_file", "args": {"file": "${packages}/User/today.TODO"} },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+v"], "command": "paste_and_indent" }
 ]
