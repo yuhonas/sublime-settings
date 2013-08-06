@@ -118,8 +118,6 @@ class RunTests(sublime_plugin.TextCommand):
       twin_path = get_twin_path(path)
       if os.path.exists(twin_path):
         path = twin_path
-      else:
-        return sublime.error_message("You're not in a spec, bro.")
 
     if scope == "line":
       line_number, column = self.view.rowcol(self.view.sel()[0].begin())
@@ -132,13 +130,13 @@ class RunTests(sublime_plugin.TextCommand):
     os.chdir(root_path)
 
     #if os.system('bundle list rspec') == 0:
-    rspec_cmd = 'bundle exec rspec'
+    rspec_cmd = "sh -c 'cd " + root_path + " && bundle exec rspec " + path + "'"
     #else:
     # rspec_cmd = 'ruby'
 
-    self.run_in_terminal('cd ' + root_path)
+    #self.run_in_terminal('cd ' + root_path)
 
-    self.run_in_terminal(rspec_cmd + ' ' + path)
+    self.run_in_terminal(rspec_cmd)
 
   def run_in_terminal(self, command):
     osascript_command = 'osascript '

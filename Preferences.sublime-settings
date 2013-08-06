@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/Themes/Railscast.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -26,6 +26,7 @@
 		120
 	],
 	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

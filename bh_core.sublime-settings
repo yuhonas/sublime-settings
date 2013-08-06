@@ -12,7 +12,7 @@
         // a style does not define a color, it will
         // use the color from the "default" style.
         "default": {
-            "icon": "dot",
+            "icon": "none",
             "color": "brackethighlighter.default",
             "style": "outline"
         }

@@ -5,6 +5,7 @@
 		"Alignment",
 		"BracketHighlighter",
 		"CoffeeScript",
+		"CTags",
 		"Cucumber",
 		"DetectSyntax",
 		"eco",
@@ -19,6 +20,7 @@
 		"Ruby Slim",
 		"Sass",
 		"SublimeLinter",
+		"Theme - Flatland",
 		"Theme - Soda"
 	]
 }

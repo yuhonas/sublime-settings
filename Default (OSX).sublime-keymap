@@ -24,7 +24,7 @@
     ]
   },
   // handy shortcut to open a daily TODO
-  { "keys": ["super+\\"], "command": "open_file", "args": {"file": "${packages}/User/today.TODO"} },
+  { "keys": ["super+'"], "command": "open_file", "args": {"file": "${packages}/User/today.TODO"} },
   // swap keybindings for column select to use alt instead of ctrl
   // ctrl seems to trigger expose in Mountain Lion
   { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
